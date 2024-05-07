@@ -24,6 +24,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-source ~/source/cavity-md-ipi/i-pi-master-py3/env.sh
+source $HOME/source/cavity-md-ipi/i-pi-master-py3/env.sh
 
 export PATH=$PATH:$HOME/local/bin/
