@@ -1,8 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install cmake g++ gfortran libboost-filesystem-dev libboost-serialization-dev libboost-system-dev liblapack-dev libopenblas-dev make python csh
-sudo apt install subversion libc-dev libhdf5-dev python-is-python3
+sudo apt install cmake g++ gfortran libboost-filesystem-dev libboost-serialization-dev libboost-system-dev liblapack-dev libopenblas-dev make python csh subversion libc-dev libhdf5-dev python-is-python3 -y
 
 export QC="$HOME/source/qchem/"
 export QCAUX="$HOME/source/qcaux/"
